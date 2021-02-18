@@ -5,46 +5,46 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Төгс Амин Эрдэнэ ХХК</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Тавтай морил <a href="#">ТАЕ!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Төрөл бүрийн бяслаг{' '}
+          <code className={styles.code}>Герман бараа</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="#" className={styles.card}>
+            <h3>Бүтээгдэхүүн &rarr;</h3>
+            <p>Дэлгэрэнгүй</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="#" className={styles.card}>
+            <h3>Бидний тухай &rarr;</h3>
+            <p>Дэлгэрэнгүй</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="login"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Захиалга &rarr;</h3>
+            <p>Бараа захиалах</p>
+          </a>
+
+          <a
+            href="#"
+            className={styles.card}
+          >
+            <h3>Холбоо барих &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Холбоо барих.
             </p>
           </a>
         </div>
@@ -52,12 +52,12 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Powered by Bayarjargal{' '}
+          <img src="/logo192.png" alt="Bayarjargal" className={styles.logo} />
         </a>
       </footer>
     </div>
