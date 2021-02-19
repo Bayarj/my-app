@@ -25,7 +25,7 @@ export default function Home() {
             <p>Дэлгэрэнгүй</p>
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="movies" className={styles.card}>
             <h3>Бидний тухай &rarr;</h3>
             <p>Дэлгэрэнгүй</p>
           </a>
