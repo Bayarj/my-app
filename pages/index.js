@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="#" className={styles.card}>
+          <a href="products" className={styles.card}>
             <h3>Бүтээгдэхүүн &rarr;</h3>
             <p>Дэлгэрэнгүй</p>
           </a>
